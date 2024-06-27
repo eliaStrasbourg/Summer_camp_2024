@@ -1,0 +1,59 @@
+h1 {
+    padding-top: 5;
+    text-align: center;
+}
+
+#header {
+    grid-area: header;
+    background-color: rgb(182, 182, 182);
+}
+
+#ex1{
+    grid-area: Ex1;
+}
+
+#ex2{
+    grid-area: Ex2;
+}
+
+#ex3{
+    grid-area: Ex3;
+}
+
+#ex4{
+    grid-area: Ex4;
+}
+
+#counter{
+    font-size: 30px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'Ex1'
+    'Ex2'
+    'Ex3'
+    'Ex4';
+    gap: 20px;
+    padding: inherit;
+    background-color: rgb(247, 244, 244);
+}
+
+button {
+  background-color: #3fadec;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
